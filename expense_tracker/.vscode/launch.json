@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "LIVE (code cùng học viên)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["--dart-define=MODE=live"]
+    },
+    {
+      "name": "SOLUTION (đáp án)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["--dart-define=MODE=solution"]
+    }
+  ]
+}
